@@ -1,0 +1,25 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual env
+venv/
+.env
+
+# Datasets (BLOCK ALL CSV)
+*.csv
+MHD/
+
+# Models
+*.pkl
+trained_models/
+results/
+src/results/
+src/models/trained_models/
+src/trained_models/
+
+# Plots
+*.png
+
+# Jupyter
+.ipynb_checkpoints/
